@@ -122,7 +122,7 @@ function updateTable(data: ITableExport) {
   const fileType = driveFile ? driveFile.mimeType : undefined;
 
   if (data.error) {
-    $listEntry.innerHTML += `
+    $listEntry.innerText += `
       <div class="fusiontable__error">
         <div class="fusiontable__error__message">
           ${data.error}
