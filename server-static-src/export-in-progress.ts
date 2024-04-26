@@ -251,5 +251,5 @@ function renderVisualizationLink(
     </a>
   `;
 
-  $visualization.innerHTML += markup;
+  $visualization.innerText += markup;
 }
